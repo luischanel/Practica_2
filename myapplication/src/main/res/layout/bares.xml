@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+    <TextView
+
+        android:text="@string/bar"
+        style="@style/titulo.enorme"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/image_view"/>
+
+
+
+    <TextView
+        style="@style/titulo.grande"
+        android:id="@+id/tbora"
+        android:text="@string/bora"/>
+
+    <TextView
+        style="@style/titulo.grande"
+        android:id="@+id/tVinikus"
+        android:text="@string/vinikus"/>
+
+    <TextView
+        style="@style/titulo.grande"
+        android:id="@+id/tLa29"
+        android:text="@string/la29"/>
+
+    <TextView
+        style="@style/texto"
+        android:id="@+id/tinfbora"
+        android:text="@string/infbora"/>
+
+    <TextView
+        style="@style/texto"
+        android:id="@+id/tinfVinikus"
+        android:text="@string/infvinikus"/>
+
+    <TextView
+        style="@style/texto"
+        android:id="@+id/tinfLa29"
+        android:text="@string/infla29"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

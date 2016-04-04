@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <TextView
+        style="@style/titulo.enorme"
+        android:text="@string/hoteles"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/image_view"/>
+    <TextView
+        style="@style/titulo.grande"
+        android:id="@+id/tFlorida"
+        android:text="@string/florida"/>
+
+    <TextView
+        style="@style/titulo.grande"
+        android:id="@+id/tBaroca"
+        android:text="@string/baroca"/>
+
+    <TextView
+        style="@style/titulo.grande"
+        android:id="@+id/tSinu"
+        android:text="@string/hsinu"/>
+    <TextView
+        style="@style/texto"
+        android:id="@+id/tinfFlorida"
+        android:text="@string/infflorida"/>
+
+    <TextView
+
+        android:id="@+id/tinfBaroca"
+        style="@style/texto"
+        android:text="@string/infbaroca"/>
+
+    <TextView
+        style="@style/texto"
+
+        android:id="@+id/tinfSinu"
+
+        android:text="@string/infSinu"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
